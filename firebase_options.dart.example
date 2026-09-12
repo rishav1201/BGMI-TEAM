@@ -1,0 +1,4 @@
+// Generate the real file with:
+// flutterfire configure
+// Then import firebase_options.dart in main.dart and initialize:
+// await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);

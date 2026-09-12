@@ -1,0 +1,21 @@
+plugins {
+    id "com.android.application"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.baggacommandcenter"
+    compileSdk = flutter.compileSdkVersion
+
+    defaultConfig {
+        applicationId = "com.baggacommandcenter"
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = 1
+        versionName = "4.1.0"
+    }
+}
+
+flutter {
+    source = "../.."
+}
